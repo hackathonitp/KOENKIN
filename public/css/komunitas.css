@@ -1,0 +1,103 @@
+
+@import url("https://fonts.googleapis.com/css?family=poppins : 500,400,600");
+
+:root {
+    --pr-color : #DD8500;
+    --sc-color : #0E4E7C:
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+}
+
+
+h5 {
+    width: 860px;
+    min-height: 113px;
+    left: calc(50% - 260px/2 - 455px);
+    top: 1802px;
+    letter-spacing: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 118px;
+    line-height: 84.6px;
+    /* or 111% */
+}
+
+#latest p {
+   padding: 0px 0;
+   width: 366px;
+   height: 99px;
+   left: calc(50% - 460px/2 - 355px);
+   top: 1964px;
+   
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 33.6px;
+   margin-left: 2px;
+   min-height: 99px;
+   /* or 186% */
+
+   color: rgba(23, 23, 23, 0.8);
+   
+   
+}
+
+.card-latest {
+    margin-top: 30%;
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 213px;
+    width: 378.61px;
+  }
+  
+
+.carbonnext-latest{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: -15px;
+    top: 20px;
+      
+}
+
+.carbonnext-latest {
+    transition: transform 0.3s; /* Efek transisi untuk perubahan transform */
+  }
+  
+  .carbonnext-latest:hover {
+    transform: scale(1.05); /* Memperbesar gambar saat kursor di bawahnya */
+  }
+  
+
+.image-5 {
+    transition: filter 0.3s; /* Efek transisi untuk perubahan filter */
+  }
+  
+  .card-latest:hover .image-5 {
+    filter: brightness(100%); /* Mengubah kecerahan gambar saat kursor di bawahnya */
+  }
+  
+  .card-latest:hover .carbonnext-latest {
+    transform: scale(0.95); /* Memperbesar gambar saat kursor di bawahnya */
+  }
+  
+
+.paragraph-6 {
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-left: -3px;
+    margin-top: -10px;
+    min-height: 100px;
+    width: 318px;
+    font-weight: 500;
+    font-size: 38px;
+
+}

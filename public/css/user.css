@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+ background-color: #171717;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btn-login{
+    background-color: #dd8500;
+}
+
+#btn-daftar{
+    background-color: #dd8500;
+}
+
+
+#btn-login:hover {
+    transform: scale(1.05);
+  }
+
+  #btn-daftar:hover {
+    transform: scale(1.05);
+  }
+
+
+
+.top{
+    padding: 18px;
+}
+
+.box{
+    background: transparent;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container {
+    border: 1px solid rgba(255, 255, 255, 2);
+    border-radius: 15px;
+    padding: 30px 70px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    background: transparent; /* Warna latar belakang semi-transparan */
+    backdrop-filter: blur(10px); /* Efek blur */
+}
+
+.opsi{
+    padding: 20px;
+}
+
+.nanya{
+    font-size: small;
+    padding: 4px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    outline: none;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color:#171717 
+}
+::-webkit-input-placeholder{
+    color: #171717;
+}
+.daftar{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: #171717 ;
+    cursor: pointer;
+    transition: .3s ;
+}
+.masuk{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: #171717 ;
+    cursor: pointer;
+    transition: .3s ;
+}
+
+.bulek {
+    margin-right: 10px;
+    color: white;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
